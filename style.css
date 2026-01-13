@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --mc-yellow: #ffe01b;
   --mc-yellow-hover: #e6c817;
   --mc-hero-blue: #d2ebff;
@@ -53,7 +53,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  overflow-x: clip; /* PREVENT horizontal scroll without breaking sticky */
+  overflow-x: clip; 
 }
 
 body {
@@ -64,7 +64,7 @@ body {
   background-color: var(--mc-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: clip; /* PREVENT horizontal scroll without breaking sticky */
+  overflow-x: clip; 
 }
 
 a {
@@ -256,7 +256,7 @@ select {
   box-shadow: var(--shadow-md);
 }
 
-/* White header for pages with colored hero backgrounds */
+
 .main-header.header-white {
   background: transparent;
   border-bottom: 1px solid transparent;
@@ -360,7 +360,7 @@ select {
 
 .nav-link:hover,
 .nav-dropdown-trigger:hover {
-  background: rgba(35, 30, 20, 0.05); /* Subtle professional highlight */
+  background: rgba(35, 30, 20, 0.05); 
   border-radius: 3px;
   text-decoration: none;
 }
@@ -1204,7 +1204,7 @@ select {
 .drawer-auth {
   display: flex;
   flex-direction: column;
-  gap: 24px; /* Increased to prevent hover overlap */
+  gap: 24px; 
   margin-bottom: 32px;
 }
 
@@ -3244,9 +3244,9 @@ select {
   padding: 20px 24px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start; /* Keeps label at the top */
+  align-items: flex-start; 
   justify-content: flex-start;
-  flex-wrap: nowrap; /* No wrapping for main container to keep label/list separate */
+  flex-wrap: nowrap; 
   gap: 16px;
 }
 
@@ -3256,14 +3256,14 @@ select {
   font-weight: 700;
   color: #241c15;
   white-space: nowrap;
-  margin-top: 4px; /* Align label baseline with first row of links */
+  margin-top: 4px; 
 }
 
 .related-links-list {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  justify-content: center; /* Centers links within their own flex group */
+  justify-content: center; 
   list-style: none;
   padding: 0;
   margin: 0;
@@ -3283,7 +3283,7 @@ select {
   font-weight: 400;
   display: inline-block;
   line-height: 1.4;
-  padding: 2px 4px; /* Added back padding for hover background */
+  padding: 2px 4px; 
 }
 
 .related-links-list li a:hover {
@@ -3293,12 +3293,12 @@ select {
   color: #241c15;
 }
 
-/* Tiered Layout Logic (About, GDPR, Why, Index) */
+
 .related-links-list--tiered li:nth-child(3) {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 4px; /* Matches about.html spacing */
+  margin-top: 4px; 
 }
 
 @media (max-width: 991px) {
@@ -3399,7 +3399,7 @@ select {
   display: inline-block;
 }
 
-/* Hover effect handled by shared selector above */
+
 
 .footer-promo {
   display: flex;
@@ -3730,7 +3730,7 @@ select {
   }
 }
 
-/* --- About Page Styles --- */
+
 .about-main {
   background-color: #fff;
 }
@@ -3751,7 +3751,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; /* Small gap as requested */
+  gap: 20px; 
   padding: 0 40px;
 }
 
@@ -3770,7 +3770,7 @@ select {
 
 .about-hero-content h1 {
   font-family: var(--font-serif);
-  font-size: 48px; /* Reduced from 56px to match reference scale */
+  font-size: 48px; 
   line-height: 1.1;
   color: #241c15;
   text-align: left;
@@ -3785,7 +3785,7 @@ select {
 .about-hero-image img {
   display: block;
   width: auto;
-  max-width: 580px; /* Increased from 500px for parity */
+  max-width: 580px; 
   height: auto;
 }
 
@@ -3841,14 +3841,14 @@ select {
 
 .about-section h2 {
   font-family: var(--font-serif);
-  font-size: 28px; /* Reduced from 35.2px */
+  font-size: 28px; 
   line-height: 1.1;
   color: #241c15;
   font-weight: 400;
-  margin: 0 0 24px; /* Slightly reduced margin */
+  margin: 0 0 24px; 
 }
 
-/* Text Based Sections */
+
 .about-text-content {
   max-width: 610px;
 }
@@ -3866,28 +3866,28 @@ select {
   margin-bottom: 0;
 }
 
-/* Learn More Grid */
+
 .about-learn-more {
   background-color: #fff;
-  padding: 60px 0; /* Reduced from 100px */
+  padding: 60px 0; 
 }
 
 .about-learn-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  max-width: 960px; /* Reduced from 1200px for a more compact feel */
+  max-width: 960px; 
   margin: 0 auto;
 }
 
 .about-card {
   display: flex;
   flex-direction: column;
-  background-color: transparent; /* Text should be on white background */
+  background-color: transparent; 
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  overflow: visible; /* Prevent clipping of text below */
+  overflow: visible; 
   cursor: pointer;
-  border-radius: 0; /* Box radius moved to image */
+  border-radius: 0; 
 }
 
 .about-learn-grid:hover .about-card:not(:hover) {
@@ -3914,7 +3914,7 @@ select {
 .about-card-image {
   display: block;
   width: 100%;
-  aspect-ratio: 240 / 130; /* More compact box ratio */
+  aspect-ratio: 240 / 130; 
   overflow: hidden;
   padding: 0;
   border-radius: 26px;
@@ -3934,14 +3934,14 @@ select {
 .about-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Change from contain to cover for full-box feel */
+  object-fit: cover; 
 }
 
 .card-image-inner-text {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%; /* Only on the left half as per live site */
+  width: 50%; 
   height: 100%;
   padding: 24px;
   display: flex;
@@ -3951,7 +3951,7 @@ select {
 
 .card-image-inner-text p {
   font-family: var(--font-primary);
-  font-size: 14px; /* Reduced from 18px */
+  font-size: 14px; 
   line-height: 1.2;
   font-weight: 400;
   color: #241c15;
@@ -3959,13 +3959,13 @@ select {
 }
 
 .about-card-content {
-  padding: 16px 0 0 0; /* Reduced from 24px */
+  padding: 16px 0 0 0; 
 }
 
 .card-label {
   display: block;
   font-family: var(--font-primary);
-  font-size: 11px; /* Reduced from 13px */
+  font-size: 11px; 
   font-weight: 500;
   letter-spacing: 0.05em;
   color: #241c15;
@@ -3975,7 +3975,7 @@ select {
 
 .about-card-content h3 {
   font-family: var(--font-serif);
-  font-size: 20px; /* Reduced from 28px */
+  font-size: 20px; 
   line-height: 1.1;
   color: #241c15;
   margin-bottom: 6px;
@@ -3983,7 +3983,7 @@ select {
 
 .about-card-content p {
   font-family: var(--font-primary);
-  font-size: 13px; /* Reduced from 16px */
+  font-size: 13px; 
   line-height: 1.5;
   color: #241c15;
 }
@@ -4033,7 +4033,7 @@ select {
   }
 }
 
-/* --- FORENSIC MICRO-INTERACTIONS (TOTAL PERFECTION) --- */
+
 
 .scrutiny-link,
 .link-with-arrow,
@@ -4057,9 +4057,9 @@ select {
   opacity: 1 !important;
 }
 
-/* Chat Bubble Forensic Refinement */
+
 .chat-bubble {
-  border-radius: 20px !important; /* Live site specifies 20px bubble */
+  border-radius: 20px !important; 
   background-color: rgb(36, 28, 21) !important;
 }
 
@@ -4067,7 +4067,7 @@ select {
   background-color: rgb(0, 0, 0) !important;
 }
 
-/* Scroll-triggered reveal animation */
+
 .product-tour-image img.reveal-on-scroll {
   opacity: 0;
   transform: translateY(40px);
@@ -4079,30 +4079,28 @@ select {
   transform: translateY(0);
 }
 
-/* ========================================
-   TABLET RESPONSIVENESS - 768px to 1024px
-   ======================================== */
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Header - keep Login button visible at tablet */
+  
   .header-container {
     height: 60px;
     padding: 0 24px;
   }
 
-  /* Hide main nav, but keep Login visible */
+  
   .main-nav {
     display: none;
   }
 
-  /* KEEP Login, Pricing, AND PHONE visible at tablet (FORENSIC: 768-1024px) */
+  
   .login-link,
   .nav-link.login-link {
     display: flex !important;
   }
 
   .sales-link {
-    display: flex !important; /* SHOW phone at tablet per forensic audit */
+    display: flex !important; 
   }
 
   .pricing-link,
@@ -4110,13 +4108,13 @@ select {
     display: flex !important;
   }
 
-  /* Show hamburger at tablet */
+  
   .mobile-menu-btn,
   .desktop-menu-btn {
     display: flex !important;
   }
 
-  /* Hero - single column but left-aligned */
+  
   .hero-container {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -4138,14 +4136,14 @@ select {
     width: auto;
   }
 
-  /* Feature cards - 2 columns at tablet */
+  
   .feature-grid-section .feature-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
-  /* Footer - KEEP multi-column at tablet (2-3 columns) */
+  
   .footer-grid {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
@@ -4158,12 +4156,12 @@ select {
     margin-bottom: 0;
   }
 
-  /* Reduce section padding slightly */
+  
   section {
     padding: 60px 24px;
   }
 
-  /* STANDARD BOX - FORENSIC: Center layout, hide feature checklist at tablet */
+  
   .standard-section,
   .pricing-section,
   .plan-section {
@@ -4176,21 +4174,21 @@ select {
     align-items: center;
   }
 
-  /* Hide the feature checklist on left at tablet (FORENSIC) */
+  
   .standard-feature-list,
   .pricing-features-left,
   .feature-checklist-left {
     display: none !important;
   }
 
-  /* Center the plan card */
+  
   .standard-box,
   .plan-card {
     margin: 0 auto;
     text-align: center;
   }
 
-  /* Center "See All Plans" link */
+  
   .see-all-plans,
   .plans-link {
     text-align: center;
@@ -4198,18 +4196,16 @@ select {
   }
 }
 
-/* ========================================
-   MOBILE RESPONSIVENESS - 768px and below
-   ======================================== */
+
 
 @media screen and (max-width: 768px) {
-  /* Header - compact height like live Mailchimp (52px) */
+  
   .header-container {
     height: 52px;
     padding: 0 16px;
   }
 
-  /* Hide all nav links on mobile - show only hamburger */
+  
   .main-nav {
     display: none;
   }
@@ -4222,20 +4218,20 @@ select {
     display: none;
   }
 
-  /* KEEP Pricing visible on mobile (FORENSIC: Always visible) */
+  
   .pricing-link,
   .nav-link[href*="pricing"],
   a[href*="pricing"].nav-link {
     display: flex !important;
   }
 
-  /* Show hamburger menu button */
+  
   .mobile-menu-btn,
   .desktop-menu-btn {
     display: flex !important;
   }
 
-  /* Hero section mobile adjustments */
+  
   .hero-content h1 {
     font-size: 48px;
     line-height: 1.1;
@@ -4246,24 +4242,24 @@ select {
     line-height: 1.5;
   }
 
-  /* Hero CTA button - MUST stay pill-shaped, NOT full-width */
+  
   .hero-cta {
     display: flex;
-    justify-content: flex-start !important; /* Left-aligned */
+    justify-content: flex-start !important; 
     text-align: left !important;
   }
 
   .hero-cta .btn {
-    width: auto !important; /* NOT full-width */
+    width: auto !important; 
     display: inline-flex !important;
     padding: 12px 24px;
     font-size: 13px;
-    border-radius: 26px; /* Pill shape */
-    margin-left: 0 !important; /* Force left align */
+    border-radius: 26px; 
+    margin-left: 0 !important; 
     margin-right: auto !important;
   }
 
-  /* STRONGER OVERRIDES - Force left alignment on ALL hero elements */
+  
   section.hero,
   section#hero,
   .hero {
@@ -4291,27 +4287,27 @@ select {
     text-align: left !important;
   }
 
-  /* Hero layout - stack vertically */
+  
   .hero-split,
   .hero-content-wrapper {
     flex-direction: column;
   }
 
-  /* All multi-column sections become single column */
+  
   .feature-grid,
   .brand-logos {
     flex-direction: column;
     gap: 24px;
   }
 
-  /* FOOTER: SINGLE column on mobile - all links in straight line on LEFT */
+  
   .footer-grid {
     display: flex !important;
     flex-direction: column !important;
     gap: 24px;
   }
 
-  /* Footer columns - left-aligned text */
+  
   .footer-col {
     width: 100%;
     margin-bottom: 16px;
@@ -4319,7 +4315,7 @@ select {
     align-items: flex-start !important;
   }
 
-  /* Footer promo section (Mailchimp Presents / Check it out) - LEFT-aligned */
+  
   .footer-promo,
   .promo-logo,
   .promo-text,
@@ -4327,7 +4323,7 @@ select {
     text-align: left;
   }
 
-  /* Intuit brand logos - 2x2 centered grid */
+  
   .brand-logos {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -4335,14 +4331,14 @@ select {
     justify-items: center;
   }
 
-  /* Footer legal/copyright section - CENTERED */
+  
   .footer-legal-bar,
   .footer-copyright-bar,
   .copyright-text {
     text-align: center;
   }
 
-  /* Mobile center-alignment for cards and grids (FORENSIC) */
+  
   .feature-card,
   .feature-item,
   .integration-item,
@@ -4352,14 +4348,14 @@ select {
     text-align: center;
   }
 
-  /* Section headlines center-aligned on mobile */
+  
   .section-title,
   .section-heading,
   h2:not(.hero h2):not(.why-hero h2) {
     text-align: left;
   }
 
-  /* Integration grid - 2 columns on mobile (FORENSIC) */
+  
   .integration-grid,
   .integrations-grid,
   .brand-logos {
@@ -4368,7 +4364,7 @@ select {
     gap: 16px;
   }
 
-  /* Pricing box full-width on mobile */
+  
   .pricing-box,
   .standard-box,
   .plan-card {
@@ -4391,41 +4387,39 @@ select {
     width: max-content;
   }
 
-  /* Feature checklist - single column on mobile */
+  
   .feature-checklist,
   .pricing-features {
     display: flex;
     flex-direction: column;
   }
 
-  /* Journey buttons - pill-shaped but aligned */
+  
   .journey-cta .btn,
   .btn-journey {
     width: auto;
     display: inline-flex;
   }
 
-  /* Ensure images don't overflow */
+  
   img {
     max-width: 100%;
     height: auto;
   }
 
-  /* Reduce section padding on mobile */
+  
   section {
     padding: 40px 16px;
   }
 
-  /* Chat with Sales badge - smaller on mobile */
+  
   .floating-chat {
     transform: scale(0.85);
     transform-origin: bottom right;
   }
 }
 
-/* ========================================
-   SMALL MOBILE - 480px and below
-   ======================================== */
+
 
 @media screen and (max-width: 480px) {
   .header-container {
@@ -4433,7 +4427,7 @@ select {
     padding: 0 12px;
   }
 
-  /* Even smaller hero text for tiny screens */
+  
   .hero-content h1 {
     font-size: 42px;
   }
@@ -4442,21 +4436,19 @@ select {
     font-size: 16px;
   }
 
-  /* Buttons stay pill-shaped but slightly smaller padding */
+  
   .btn {
     padding: 10px 20px;
     font-size: 13px;
   }
 
-  /* Tighter section padding */
+  
   section {
     padding: 32px 12px;
   }
 }
 
-/* ========================================
-   EXTRA SMALL - 320px (iPhone SE)
-   ======================================== */
+
 
 @media screen and (max-width: 360px) {
   .header-container {
@@ -4475,3 +4467,4 @@ select {
     padding: 24px 10px;
   }
 }
+

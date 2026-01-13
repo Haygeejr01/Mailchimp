@@ -1,9 +1,9 @@
-const SHARED_COMPONENTS = {
+﻿const SHARED_COMPONENTS = {
   getPromoBanner() {
     return `
       <div class="promo-banner" id="promo-banner">
         <div class="promo-banner-content">
-          <p>Save 50% for 12 months—limited time offer. <a href="#">Get started today</a></p>
+          <p>Save 50% for 12 monthsâ€”limited time offer. <a href="#">Get started today</a></p>
         </div>
         <button class="promo-banner-close" aria-label="Close banner"><i class="fa-solid fa-xmark"></i></button>
       </div>`;
@@ -111,7 +111,7 @@ const SHARED_COMPONENTS = {
               </ul>
             </div>
             <div class="footer-col footer-promo">
-               <div class="promo-logo"><img src="https://mailchimp.com/ctf/images/yzco4xsimv0y/73ZAoe8O3Y7SXQLeCNTq5u/8ddf1f63b4abdf7f67149d3a9d74a0bd/MCP.svg?w=260&q=70" alt="Visit Mailchimp Presents"></div>
+               <div class="promo-logo"><img src="https:
                <p class="promo-text">Films, podcasts, and original series that celebrate the entrepreneurial spirit.</p>
                <a href="#" class="promo-link">Check it out <i class="fa-solid fa-arrow-right"></i></a>
             </div>
@@ -120,7 +120,7 @@ const SHARED_COMPONENTS = {
         <div class="brand-footer">
           <div class="brand-container">
             <div class="footer-copyright-bar">
-              <p class="copyright-text">©2001–2025 All Rights Reserved. Mailchimp® is a registered trademark.</p>
+              <p class="copyright-text">Â©2001â€“2025 All Rights Reserved. MailchimpÂ® is a registered trademark.</p>
               <a href="#" class="chat-btn"><i class="fa-solid fa-message"></i> Chat with Sales</a>
             </div>
           </div>
@@ -189,3 +189,4 @@ const SHARED_COMPONENTS = {
 };
 
 document.addEventListener('DOMContentLoaded', () => SHARED_COMPONENTS.inject());
+

@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --mc-yellow: #ffe01b;
   --mc-yellow-hover: #e5c918;
   --mc-black: #241c15;
@@ -51,7 +51,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  overflow-x: clip; /* Prevents horizontal overflow without breaking sticky */
+  overflow-x: clip; 
 }
 
 body {
@@ -62,7 +62,7 @@ body {
   background-color: var(--mc-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: clip; /* Prevents horizontal overflow without breaking sticky */
+  overflow-x: clip; 
 }
 
 a {
@@ -188,7 +188,7 @@ select {
   color: var(--mc-teal);
 }
 
-/* btn-cta unified with universal button styles */
+
 .btn-cta {
   background: var(--mc-yellow);
   color: #231e15;
@@ -326,10 +326,10 @@ select {
   transition: background var(--transition-fast);
 }
 
-/* Professional subtle hover (Matches live site transparency) */
+
 .nav-link:hover,
 .nav-dropdown-trigger:hover {
-  background: rgba(35, 30, 20, 0.05); /* Subtle perfection-level highlight */
+  background: rgba(35, 30, 20, 0.05); 
   border-radius: 3px;
   text-decoration: none;
 }
@@ -557,8 +557,8 @@ select {
   transition: all var(--transition-fast);
 }
 
-/* --- Why Mailchimp Page Styles --- */
-/* --- Why Mailchimp Forensic Redesign (6 Sections) --- */
+
+
 .why-main {
   background-color: #fff;
 }
@@ -569,11 +569,11 @@ select {
   padding: 0 40px;
 }
 
-/* Section 1: Hero */
+
 .why-hero {
   background-color: #ffe01b;
   margin-top: -68px;
-  padding: 140px 0 0; /* Increased from 68px to provide space below navbar */
+  padding: 140px 0 0; 
   overflow: visible;
   position: relative;
 }
@@ -581,7 +581,7 @@ select {
 .why-hero::before {
   content: "";
   position: absolute;
-  top: -10px; /* Bleed upwards to cover header gap */
+  top: -10px; 
   left: 0;
   right: 0;
   height: 10px;
@@ -647,7 +647,7 @@ select {
   display: block;
 }
 
-/* Section 1: Introduction Text */
+
 .why-intro {
   padding: 80px 0;
   background-color: #fff;
@@ -655,7 +655,7 @@ select {
 }
 
 .why-intro-content {
-  max-width: 853.333px; /* Precise max-width from live site */
+  max-width: 853.333px; 
   margin: 0 auto;
 }
 
@@ -664,7 +664,7 @@ select {
   font-size: 35.2px;
   line-height: 1.1;
   color: #231e15;
-  margin-bottom: 16px; /* 16px gap as measured */
+  margin-bottom: 16px; 
   font-weight: 400;
 }
 
@@ -676,9 +676,9 @@ select {
   margin: 0;
 }
 
-/* Section 1.5: Business Journey (Scrollytelling) */
+
 .why-journey {
-  padding: 0; /* Remove padding to allow 100vh blocks to align with viewport */
+  padding: 0; 
   background-color: #fff;
   overflow: visible;
 }
@@ -689,12 +689,12 @@ select {
   align-items: flex-start;
 }
 
-/* Left: Sticky Media Column */
+
 .why-journey-media {
   flex: 0 0 60%;
   position: sticky;
-  top: 130px; /* Centered relative to visible area below header (~126px live) */
-  height: 425px; /* Matched to live site audit */
+  top: 130px; 
+  height: 425px; 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -704,7 +704,7 @@ select {
 .why-journey-media-wrapper {
   position: relative;
   width: 100%;
-  max-width: 775px; /* Matched to live site audit */
+  max-width: 775px; 
 }
 
 .journeyModule__animation {
@@ -713,7 +713,7 @@ select {
   display: block;
 }
 
-/* Right: Scrolling Content Column */
+
 .why-journey-content {
   flex: 0 0 40%;
   display: flex;
@@ -729,17 +729,17 @@ select {
   flex-direction: column;
   justify-content: center;
   max-width: 312px;
-  margin: 0; /* Let column padding handle horizontal spacing */
+  margin: 0; 
 }
 
-/* Make the second block longer to show both Grow states */
+
 .journey-block[data-state="2"] {
-  min-height: 110vh; /* Scaled down proportionally from 180vh */
+  min-height: 110vh; 
 }
 
 .journey-heading {
   font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 24px; /* Reduced from 28.8px to satisfy "shrink" request */
+  font-size: 24px; 
   line-height: 1.25;
   color: #231e15;
   margin-bottom: 8px;
@@ -748,7 +748,7 @@ select {
 
 .journey-text {
   font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 15px; /* Slightly reduced from 16px */
+  font-size: 15px; 
   line-height: 1.5;
   color: #231e15;
   margin-bottom: 24px;
@@ -788,17 +788,17 @@ select {
   box-shadow: 0 0 0 1px #231e15, 0 0.203125rem 0 0 #231e15;
 }
 
-/* Section 1.6: Ready to Get Started */
-/* Section 1.6: Forward Together Text */
+
+
 .why-forward-text {
-  padding: 80px 0; /* Shrunk from 140px/60px to match live audit */
+  padding: 80px 0; 
   background-color: #fff;
   text-align: center;
 }
 
 .why-forward-content h2 {
   font-family: var(--font-serif);
-  font-size: 35.2px; /* Matched to live site audit */
+  font-size: 35.2px; 
   line-height: normal;
   color: #231e15;
   margin-bottom: 24px;
@@ -814,37 +814,37 @@ select {
   margin: 0 auto;
 }
 
-/* Section 1.7: Ready to Get Started CTA */
+
 .why-get-started {
-  padding: 0 0 80px; /* Shrunk bottom padding to match live audit */
+  padding: 0 0 80px; 
   background-color: #fff;
   text-align: center;
 }
 
 .why-gs-content h2 {
   font-family: var(--font-serif);
-  font-size: 35.2px; /* Matched to live site audit */
+  font-size: 35.2px; 
   line-height: normal;
   color: #231e15;
   margin-bottom: 40px;
   font-weight: 400;
 }
 
-/* btn-cta inherits from universal .btn */
+
 .btn-cta {
   background-color: #fff;
 }
 
-/* Section 2: 3-Column Features (Tan Background) */
+
 .why-features-tan {
   background-color: #ebe1cd;
-  padding: 80px 0; /* Shrunk from 120px to match live audit */
+  padding: 80px 0; 
 }
 
 .why-features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 32px 20px; /* Precise XS scale gap: 32px row, 20px column */
+  gap: 32px 20px; 
 }
 
 .why-feature-card {
@@ -853,12 +853,12 @@ select {
 
 .why-feature-image {
   width: 100%;
-  margin-bottom: 0; /* Clear margin to use margin-top on heading instead */
+  margin-bottom: 0; 
 }
 
 .why-feature-image img {
   width: 100%;
-  max-width: 140px; /* Shrunk from 180px to Extra Small */
+  max-width: 140px; 
   height: auto;
   border-radius: 8px;
   object-fit: contain;
@@ -867,7 +867,7 @@ select {
 
 .why-feature-card h3 {
   font-family: var(--font-primary);
-  font-size: 20px; /* Reduced from 24px */
+  font-size: 20px; 
   line-height: 28px;
   color: #231e15;
   margin-top: 24px;
@@ -878,8 +878,8 @@ select {
 
 .why-feature-card p {
   font-family: var(--font-primary);
-  font-size: 14px; /* Reduced from 16px */
-  line-height: 24px; /* Balanced for 14px text */
+  font-size: 14px; 
+  line-height: 24px; 
   color: #231e15;
   margin-bottom: 0;
 }
@@ -889,9 +889,9 @@ select {
   align-items: center;
   position: relative;
   margin-top: 24px;
-  padding: 6px 40px 6px 16px; /* Balanced for 12px text */
+  padding: 6px 40px 6px 16px; 
   font-family: var(--font-primary);
-  font-size: 12px !important; /* Reduced from 13px */
+  font-size: 12px !important; 
   font-weight: 500;
   color: #231e15;
   text-decoration: none;
@@ -902,9 +902,9 @@ select {
   content: "";
   position: absolute;
   top: 50%;
-  left: calc(100% - 32px); /* Start as circle at right */
+  left: calc(100% - 32px); 
   right: 4px;
-  height: 28px; /* Slightly smaller for 12px scale */
+  height: 28px; 
   width: 28px;
   background-color: #ffe01b;
   border-radius: 14px;
@@ -916,7 +916,7 @@ select {
 .arrow-link::after {
   content: "";
   display: inline-block;
-  width: 16px; /* Matched to 28px circle */
+  width: 16px; 
   height: 16px;
   position: absolute;
   right: 10px;
@@ -931,7 +931,7 @@ select {
 
 .arrow-link:hover::before,
 .arrow-link:active::before {
-  left: 0; /* Fully expand and cover text */
+  left: 0; 
   right: 0;
   width: auto;
   border-radius: 20px;
@@ -942,35 +942,35 @@ select {
   transform: translateY(-50%) translateX(4px);
 }
 
-/* Section 3: Social Proof Logos */
+
 .why-social-logos {
   background-color: #fff;
-  padding: 80px 0; /* Reduced from 120px to match live audit */
+  padding: 80px 0; 
   text-align: center;
 }
 
 .why-social-header h2 {
   font-family: var(--font-serif);
-  font-size: 35.29px; /* Precise live site value */
+  font-size: 35.29px; 
   line-height: 35.29px;
   color: #231e15;
-  margin-bottom: 16px; /* Precise gap */
+  margin-bottom: 16px; 
   font-weight: 400;
 }
 
 .why-social-header p {
   font-family: var(--font-primary);
-  font-size: 24px; /* Precise live site value */
+  font-size: 24px; 
   line-height: 32px;
   color: #231e15;
-  margin-bottom: 40px; /* Space above logo cloud */
+  margin-bottom: 40px; 
 }
 
 .why-logos-flex {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 154.75px; /* Precise gap measured from live site */
+  gap: 154.75px; 
   flex-wrap: wrap;
 }
 
@@ -982,16 +982,16 @@ select {
   object-fit: contain;
 }
 
-/* Section 4: Ready to Grow (Yellow background) */
+
 .why-ready-grow {
   background-color: #ffe01b;
-  padding: 80px 0; /* Forensic match */
+  padding: 80px 0; 
   text-align: center;
 }
 
 .why-grow-content h2 {
   font-family: var(--font-serif);
-  font-size: 35.29px; /* Forensic match */
+  font-size: 35.29px; 
   line-height: 1;
   color: #231e15;
   margin-bottom: 16px;
@@ -1000,7 +1000,7 @@ select {
 
 .why-grow-content p {
   font-family: var(--font-primary);
-  font-size: 24px; /* Forensic match */
+  font-size: 24px; 
   line-height: 1.33;
   color: #231e15;
   margin-bottom: 40px;
@@ -1011,72 +1011,72 @@ select {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  flex-wrap: nowrap; /* Enforce side-by-side */
+  flex-wrap: nowrap; 
 }
 
 .why-grow-btns .btn-primary {
-  background-color: #ffe01b; /* Match section bg */
+  background-color: #ffe01b; 
   color: #231e15;
   font-size: 13px;
   font-weight: 500;
   padding: 12px 24px;
   border: none;
-  box-shadow: inset 0 0 0 1px #231e15; /* Inset border parity */
+  box-shadow: inset 0 0 0 1px #231e15; 
   border-radius: 26px;
 }
 
 .why-ready-grow .arrow-link {
-  display: inline-flex; /* Force inline for side-by-side alignment */
+  display: inline-flex; 
   align-items: center;
-  font-size: 16px !important; /* Forensic match */
+  font-size: 16px !important; 
   font-weight: 400;
-  margin-top: 0; /* Override general arrow-link margin */
-  padding: 0 40px 0 0; /* Remove vertical padding, keep right padding for arrow */
+  margin-top: 0; 
+  padding: 0 40px 0 0; 
 }
 
 .why-ready-grow .arrow-link::before {
-  background-color: #ffe01b; /* Match section bg - makes pill invisible on yellow */
+  background-color: #ffe01b; 
 }
 
 .why-ready-grow .arrow-link:hover {
-  color: #231e15; /* No color change on hover */
-  transform: translateX(4px); /* Forensic shift */
+  color: #231e15; 
+  transform: translateX(4px); 
 }
 
 .why-grow-btns .btn-primary:hover {
-  background-color: #ffe01b; /* No color change on hover */
-  box-shadow: 0 0 0 1px #231e15, 0 6px 0 0 #231e15; /* Depth shadow (0.375em approx 6px) */
+  background-color: #ffe01b; 
+  box-shadow: 0 0 0 1px #231e15, 0 6px 0 0 #231e15; 
   transform: translateY(-6px);
 }
 
-/* Section 5: Recirculation / Continue Reading */
+
 .why-recirculation {
   background-color: #fff;
   padding: 120px 0;
 }
 
-/* Container for centered layout ~915px */
+
 .rec-container {
   max-width: 915px;
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  overflow-x: hidden; /* Prevent horizontal overflow */
+  overflow-x: hidden; 
 }
 
 .why-rec-title {
-  text-align: left; /* Forensic: computed as 'start' */
-  font-family: var(--font-primary); /* Forensic: Graphik Web */
-  font-size: 28.8px; /* Forensic match */
-  line-height: 36px; /* Forensic match */
+  text-align: left; 
+  font-family: var(--font-primary); 
+  font-size: 28.8px; 
+  line-height: 36px; 
   color: #231e15;
-  margin-bottom: 40px; /* Forensic: gap managed by grid */
+  margin-bottom: 40px; 
   font-weight: 400;
 }
 
 .why-rec-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 20px;
   align-items: stretch;
 }
@@ -1084,11 +1084,11 @@ select {
 .why-rec-card {
   display: flex;
   flex-direction: column;
-  min-width: 0; /* Prevent flex overflow */
+  min-width: 0; 
   transition: opacity 0.1s ease-in-out;
 }
 
-/* Forensic Hover Effect: When hovering on grid, non-hovered cards dim to 0.5 opacity */
+
 .why-rec-grid:hover .why-rec-card {
   opacity: 0.5;
 }
@@ -1098,11 +1098,11 @@ select {
 }
 
 .why-rec-card h3 {
-  font-family: var(--font-serif); /* Forensic: Means Web */
-  font-size: 22.4px; /* Forensic match */
-  line-height: 29.87px; /* Forensic match */
-  color: #002023; /* Forensic: rgb(0, 32, 35) */
-  margin-bottom: 4px; /* Forensic match */
+  font-family: var(--font-serif); 
+  font-size: 22.4px; 
+  line-height: 29.87px; 
+  color: #002023; 
+  margin-bottom: 4px; 
   font-weight: 400;
 }
 
@@ -1114,14 +1114,14 @@ select {
   margin-bottom: 24px;
 }
 
-/* Card Image Container */
+
 .rec-card-image {
   width: 100%;
-  aspect-ratio: 1520 / 855; /* Forensic: exact aspect ratio */
+  aspect-ratio: 1520 / 855; 
   overflow: hidden;
-  border-radius: 26px; /* Forensic match */
+  border-radius: 26px; 
   margin-bottom: 16px;
-  transition: opacity 0.1s ease-in-out; /* Forensic: hover effect */
+  transition: opacity 0.1s ease-in-out; 
 }
 
 .rec-card-image img {
@@ -1130,15 +1130,15 @@ select {
   object-fit: cover;
 }
 
-/* Yellow Card (Image Container Only - forensic structure) */
+
 .rec-card-yellow {
-  background-color: #ffe900; /* Forensic: rgb(255, 233, 0) */
+  background-color: #ffe900; 
   padding: 40px;
-  border-radius: 26px; /* Forensic match */
+  border-radius: 26px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  aspect-ratio: 1520 / 855; /* Match other card images */
+  aspect-ratio: 1520 / 855; 
   margin-bottom: 16px;
 }
 
@@ -1147,7 +1147,7 @@ select {
   height: auto;
 }
 
-/* Title Links (clickable headings) */
+
 .rec-title-link {
   text-decoration: none;
   color: inherit;
@@ -1162,7 +1162,7 @@ select {
   text-decoration: underline;
 }
 
-/* Image link wrapper */
+
 .rec-card-link {
   display: block;
 }
@@ -1176,20 +1176,20 @@ select {
   width: auto;
 }
 
-/* RESOURCES label - now outside yellow card */
+
 .rec-card-label {
   display: block;
   font-family: var(--font-primary);
-  font-size: 11.8px; /* Forensic: 0.7375rem */
-  font-weight: 500; /* Forensic match */
+  font-size: 11.8px; 
+  font-weight: 500; 
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #231e15;
-  margin-bottom: 8px; /* Forensic match */
+  margin-bottom: 8px; 
   margin-top: 8px;
 }
 
-/* Recirculation Arrow Links */
+
 .rec-arrow {
   margin-top: auto;
   padding: 0 40px 0 0;
@@ -1236,7 +1236,7 @@ select {
   object-fit: cover;
 }
 
-/* Redundant block removed */
+
 
 .why-recirc-content h2 {
   font-family: var(--font-serif);
@@ -1326,9 +1326,9 @@ select {
   max-height: 100%;
 }
 
-/* Redundant blocks removed */
 
-/* Helpers & Responsvieness */
+
+
 .arrow-link {
   display: inline-flex;
   align-items: center;
@@ -1378,7 +1378,7 @@ select {
   }
 }
 
-/* Cleanup old styles */
+
 .hero,
 .hero-container,
 .hero-content,
@@ -1745,7 +1745,7 @@ select {
   background: #fff;
   z-index: 2000;
   transform: translateX(100%);
-  visibility: hidden; /* Hide from layout when closed */
+  visibility: hidden; 
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
     visibility 0.3s cubic-bezier(0.16, 1, 0.3, 1);
   box-shadow: -5px 0 30px rgba(0, 0, 0, 0.15);
@@ -1934,7 +1934,7 @@ select {
 .drawer-auth {
   display: flex;
   flex-direction: column;
-  gap: 24px; /* Increased to prevent hover overlap */
+  gap: 24px; 
   margin-bottom: 32px;
 }
 
@@ -3617,7 +3617,7 @@ select {
 }
 
 .btn-buy-now {
-  /* Inherits from .btn and .btn-primary */
+  
 }
 
 .pricing-footnote {
@@ -3859,7 +3859,7 @@ select {
 }
 
 .btn-signup {
-  /* Inherits from .btn and .btn-primary */
+  
 }
 
 .disclaimers-section {
@@ -4325,18 +4325,16 @@ select {
   display: none;
 }
 
-/* ========================================
-   WHY MAILCHIMP - TABLET (768-1024px)
-   ======================================== */
+
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  /* Header - tablet size with Login visible */
+  
   .header-container {
     height: 60px;
     padding: 0 24px;
   }
 
-  /* Hide main nav but keep Login */
+  
   .main-nav {
     display: none;
   }
@@ -4345,7 +4343,7 @@ select {
     display: flex !important;
   }
 
-  /* SHOW Phone at tablet (FORENSIC: 768-1024px) */
+  
   .sales-link {
     display: flex !important;
   }
@@ -4355,12 +4353,12 @@ select {
     display: flex !important;
   }
 
-  /* Show hamburger */
+  
   .mobile-menu-btn {
     display: flex !important;
   }
 
-  /* Hero - left-aligned, proper spacing */
+  
   .why-hero {
     padding: 80px 0 60px;
   }
@@ -4384,7 +4382,7 @@ select {
     text-align: left !important;
   }
 
-  /* Hero button - pill-shaped, left-aligned */
+  
   .why-hero-cta,
   .why-hero-text .btn {
     width: auto !important;
@@ -4393,7 +4391,7 @@ select {
     margin-right: auto !important;
   }
 
-  /* Journey section - 2 columns at tablet */
+  
   .why-journey-flex {
     flex-direction: row;
     gap: 40px;
@@ -4409,7 +4407,7 @@ select {
     max-width: 100%;
   }
 
-  /* All buttons - pill-shaped, NOT full-width */
+  
   .btn,
   .btn-yellow,
   .btn-primary {
@@ -4418,7 +4416,7 @@ select {
     border-radius: 26px;
   }
 
-  /* Features grid - 2 columns */
+  
   .why-features-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -4429,14 +4427,14 @@ select {
     width: 100%;
   }
 
-  /* Recirculation - 2 columns */
+  
   .why-rec-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
-  /* Footer - multi-column at tablet */
+  
   .footer-grid {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
@@ -4449,37 +4447,35 @@ select {
     margin-bottom: 0;
   }
 
-  /* Container padding */
+  
   .why-container {
     padding: 0 24px;
   }
 }
 
-/* ========================================
-   WHY MAILCHIMP - MOBILE RESPONSIVENESS
-   ======================================== */
+
 
 @media screen and (max-width: 768px) {
-  /* Header - compact 52px like live Mailchimp */
+  
   .header-container {
     height: 52px;
     padding: 0 16px;
   }
 
-  /* Hide nav links on mobile */
+  
   .main-nav,
   .sales-link,
   .login-link {
     display: none;
   }
 
-  /* KEEP Pricing visible (FORENSIC) */
+  
   .pricing-link,
   a[href*="pricing"] {
     display: flex !important;
   }
 
-  /* Hero adjustments */
+  
   .why-hero {
     margin-top: -52px;
     padding: 100px 0 40px;
@@ -4497,7 +4493,7 @@ select {
     text-align: left;
   }
 
-  /* Hero button - LEFT-aligned like landing page */
+  
   .why-hero-btns {
     display: flex;
     justify-content: flex-start;
@@ -4522,7 +4518,7 @@ select {
     width: 100%;
   }
 
-  /* STICKY PINNED VIDEO EFFECT - text scrolls under video with solid bg */
+  
 
   .why-journey-flex {
     flex-direction: column;
@@ -4535,8 +4531,8 @@ select {
     height: auto;
     flex: none;
     width: 100%;
-    z-index: 10; /* Video on top */
-    background: #ffe01b; /* SOLID BACKGROUND so text disappears behind video */
+    z-index: 10; 
+    background: #ffe01b; 
   }
 
   .why-journey-media-wrapper {
@@ -4549,7 +4545,7 @@ select {
     padding-left: 16px;
     padding-right: 16px;
     position: relative;
-    z-index: 1; /* Text below video layer */
+    z-index: 1; 
     text-align: left;
   }
 
@@ -4561,10 +4557,10 @@ select {
   }
 
   .journey-block .btn {
-    margin-left: 0; /* LEFT-aligned button */
+    margin-left: 0; 
   }
 
-  /* SECTIONS AFTER JOURNEY - higher z-index to stack properly on top */
+  
   .why-forward-section,
   .why-features-section,
   .why-gs-section,
@@ -4572,27 +4568,27 @@ select {
   .why-grow-section,
   .why-rec-section {
     position: relative;
-    z-index: 20; /* Higher than sticky video (z-index:10) */
-    background: inherit; /* Ensure solid background */
+    z-index: 20; 
+    background: inherit; 
   }
 
-  /* Features grid - single column */
+  
   .why-features-grid {
     flex-direction: column;
     gap: 32px;
   }
 
-  /* Feature cards - CENTER-aligned per 390px audit */
+  
   .why-feature-card {
     width: 100%;
-    text-align: center; /* CENTER-aligned per audit */
+    text-align: center; 
   }
 
   .why-feature-card img {
     margin: 0 auto;
   }
 
-  /* Logos - STACKED VERTICALLY, CENTER-aligned, ~140px per audit */
+  
   .why-logos-flex {
     display: flex;
     flex-direction: column;
@@ -4602,12 +4598,12 @@ select {
 
   .why-logos-flex img {
     height: auto;
-    width: 140px; /* ~140px square container per audit */
+    width: 140px; 
     max-width: 140px;
     object-fit: contain;
   }
 
-  /* Recirculation cards - single column */
+  
   .why-rec-grid {
     flex-direction: column;
     gap: 24px;
@@ -4617,7 +4613,7 @@ select {
     width: 100%;
   }
 
-  /* Text sections - CENTER-aligned per 390px audit */
+  
   .why-intro-content,
   .why-forward-content,
   .why-gs-content,
@@ -4637,30 +4633,30 @@ select {
     font-size: 18px;
   }
 
-  /* Ready to get started - CENTER-aligned button */
+  
   .why-gs-content .btn {
     margin: 0 auto;
   }
 
-  /* Container padding */
+  
   .why-container {
     padding: 0 16px;
   }
 
-  /* FORENSIC MOBILE FIXES - CORRECTED */
-  /* Footer - SINGLE column on mobile - all links straight line LEFT */
+  
+  
   .footer-grid {
     display: flex !important;
     flex-direction: column !important;
     gap: 24px;
   }
 
-  /* Footer columns - left-aligned text */
+  
   .footer-col {
     text-align: left;
   }
 
-  /* Footer promo section (Mailchimp Presents / Check it out) - LEFT-aligned */
+  
   .footer-promo,
   .promo-logo,
   .promo-text,
@@ -4668,7 +4664,7 @@ select {
     text-align: left;
   }
 
-  /* Intuit brand logos - 2x2 centered grid */
+  
   .brand-logos {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -4676,29 +4672,29 @@ select {
     justify-items: center;
   }
 
-  /* Footer legal/copyright section - CENTERED */
+  
   .footer-legal-bar,
   .footer-copyright-bar,
   .copyright-text {
     text-align: center;
   }
 
-  /* Feature cards center-aligned BUT resource cards LEFT-aligned (FORENSIC) */
+  
   .why-feature-card {
     text-align: center;
   }
 
-  /* Resource cards (Mailchimp 101, Marketing Resources) - LEFT-aligned per audit */
+  
   .why-rec-card {
     text-align: left;
   }
 
-  /* Resource card images - rounded corners */
+  
   .why-rec-card img {
     border-radius: 12px;
   }
 
-  /* Recirculation grid - STACK VERTICALLY from 1st to 3rd card */
+  
   .why-rec-grid {
     display: flex !important;
     flex-direction: column !important;
@@ -4713,14 +4709,14 @@ select {
     text-align: center;
   }
 
-  /* Integration grid 2-column on mobile */
+  
   .why-integrations-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
   }
 
-  /* Journey buttons - pill-shaped */
+  
   .btn-journey,
   .journey-block .btn {
     width: auto;
@@ -4747,3 +4743,4 @@ select {
     padding: 0 12px;
   }
 }
+

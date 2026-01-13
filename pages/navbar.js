@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+﻿document.addEventListener('DOMContentLoaded', () => {
   const header = document.querySelector('.main-header');
   
   const handleScroll = () => {
@@ -9,8 +9,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Initial check
+  
   handleScroll();
   
   window.addEventListener('scroll', handleScroll, { passive: true });
 });
+
