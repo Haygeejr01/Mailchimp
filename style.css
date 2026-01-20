@@ -18,8 +18,8 @@
   --mc-dark: #1a1a2e;
   --mc-pink: #f35b7f;
 
-  --font-primary: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana,
-    sans-serif;
+  --font-primary:
+    "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   --font-serif: "Means Web", Georgia, "Times New Roman", Times, serif;
 
   --section-padding: 80px;
@@ -53,7 +53,7 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
-  overflow-x: clip; 
+  overflow-x: clip;
 }
 
 body {
@@ -64,7 +64,7 @@ body {
   background-color: var(--mc-white);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: clip; 
+  overflow-x: clip;
 }
 
 a {
@@ -119,7 +119,8 @@ select {
   border: none;
   cursor: pointer;
   transform: translateY(0);
-  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
+  transition:
+    transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
   box-shadow: 0 0 0 1px #231e15;
   white-space: nowrap;
@@ -127,12 +128,16 @@ select {
 
 .btn:hover {
   transform: translateY(-0.3125rem);
-  box-shadow: 0 0 0 1px #231e15, 0 0.3125rem 0 0 #231e15;
+  box-shadow:
+    0 0 0 1px #231e15,
+    0 0.3125rem 0 0 #231e15;
 }
 
 .btn:active {
   transform: translateY(-0.10156rem);
-  box-shadow: 0 0 0 1px #231e15, 0 0.203125rem 0 0 #231e15;
+  box-shadow:
+    0 0 0 1px #231e15,
+    0 0.203125rem 0 0 #231e15;
 }
 
 .btn-lg {
@@ -256,7 +261,6 @@ select {
   box-shadow: var(--shadow-md);
 }
 
-
 .main-header.header-white {
   background: transparent;
   border-bottom: 1px solid transparent;
@@ -274,7 +278,9 @@ select {
 }
 
 .main-header.header-white .btn-secondary:hover {
-  box-shadow: 0 0 0 1px #ffffff, 0 0.3125rem 0 0 #ffffff;
+  box-shadow:
+    0 0 0 1px #ffffff,
+    0 0.3125rem 0 0 #ffffff;
 }
 
 .main-header.header-white .hamburger-line {
@@ -360,7 +366,7 @@ select {
 
 .nav-link:hover,
 .nav-dropdown-trigger:hover {
-  background: rgba(35, 30, 20, 0.05); 
+  background: rgba(35, 30, 20, 0.05);
   border-radius: 3px;
   text-decoration: none;
 }
@@ -965,7 +971,8 @@ select {
   border-radius: 8px;
   width: 90px;
   height: 72px;
-  transition: background var(--transition-fast),
+  transition:
+    background var(--transition-fast),
     box-shadow var(--transition-fast);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   font-size: 25px;
@@ -1204,7 +1211,7 @@ select {
 .drawer-auth {
   display: flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 24px;
   margin-bottom: 32px;
 }
 
@@ -1223,8 +1230,8 @@ select {
 }
 
 .drawer-intuit-header {
-  font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family:
+    "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
   font-weight: 800;
   font-size: 24px;
   letter-spacing: 1px;
@@ -1271,7 +1278,8 @@ select {
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 4px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
 .brand-zapier .zapier-wordmark,
@@ -1294,8 +1302,9 @@ select {
 }
 
 .zapier-wordmark {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   font-size: 16px;
   color: #000;
@@ -1313,8 +1322,9 @@ select {
 }
 
 .brand-zapier .zapier-wordmark {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   font-weight: 700;
   letter-spacing: -0.3px;
 }
@@ -2114,7 +2124,9 @@ select {
 }
 
 .btn-explore:hover {
-  box-shadow: #231e15 0px 0px 0px 1px, #231e15 0px 3.25px 0px 0px;
+  box-shadow:
+    #231e15 0px 0px 0px 1px,
+    #231e15 0px 3.25px 0px 0px;
   transform: translateY(-2px);
 }
 
@@ -2188,7 +2200,9 @@ select {
   cursor: pointer;
   z-index: 5000;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, background-color 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease;
   font-family: var(--font-body);
   font-weight: 700;
   font-size: 14px;
@@ -2932,7 +2946,9 @@ select {
 }
 
 .pricing-footnote .highlight-link {
-  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition:
+    background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
 }
 
 .pricing-footnote .highlight-link:hover {
@@ -3166,7 +3182,8 @@ select {
   text-decoration: none;
   border: none;
   transform: translateY(0);
-  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
+  transition:
+    transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
   box-shadow: 0 0 0 0 transparent;
 }
@@ -3219,7 +3236,9 @@ select {
 .disclaimers-list li a {
   color: #231e15;
   text-decoration: underline;
-  transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  transition:
+    background-color 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out;
 }
 
 .disclaimers-list li a:hover {
@@ -3244,9 +3263,9 @@ select {
   padding: 20px 24px;
   display: flex;
   flex-direction: row;
-  align-items: flex-start; 
+  align-items: flex-start;
   justify-content: flex-start;
-  flex-wrap: nowrap; 
+  flex-wrap: nowrap;
   gap: 16px;
 }
 
@@ -3256,14 +3275,14 @@ select {
   font-weight: 700;
   color: #241c15;
   white-space: nowrap;
-  margin-top: 4px; 
+  margin-top: 4px;
 }
 
 .related-links-list {
   display: flex;
   flex-wrap: wrap;
   flex: 1;
-  justify-content: center; 
+  justify-content: center;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -3283,7 +3302,7 @@ select {
   font-weight: 400;
   display: inline-block;
   line-height: 1.4;
-  padding: 2px 4px; 
+  padding: 2px 4px;
 }
 
 .related-links-list li a:hover {
@@ -3293,12 +3312,11 @@ select {
   color: #241c15;
 }
 
-
 .related-links-list--tiered li:nth-child(3) {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 4px; 
+  margin-top: 4px;
 }
 
 @media (max-width: 991px) {
@@ -3398,8 +3416,6 @@ select {
   transition: all 0.2s ease-in-out;
   display: inline-block;
 }
-
-
 
 .footer-promo {
   display: flex;
@@ -3730,7 +3746,6 @@ select {
   }
 }
 
-
 .about-main {
   background-color: #fff;
 }
@@ -3751,7 +3766,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px; 
+  gap: 20px;
   padding: 0 40px;
 }
 
@@ -3770,7 +3785,7 @@ select {
 
 .about-hero-content h1 {
   font-family: var(--font-serif);
-  font-size: 48px; 
+  font-size: 48px;
   line-height: 1.1;
   color: #241c15;
   text-align: left;
@@ -3785,7 +3800,7 @@ select {
 .about-hero-image img {
   display: block;
   width: auto;
-  max-width: 580px; 
+  max-width: 580px;
   height: auto;
 }
 
@@ -3841,13 +3856,12 @@ select {
 
 .about-section h2 {
   font-family: var(--font-serif);
-  font-size: 28px; 
+  font-size: 28px;
   line-height: 1.1;
   color: #241c15;
   font-weight: 400;
-  margin: 0 0 24px; 
+  margin: 0 0 24px;
 }
-
 
 .about-text-content {
   max-width: 610px;
@@ -3866,28 +3880,27 @@ select {
   margin-bottom: 0;
 }
 
-
 .about-learn-more {
   background-color: #fff;
-  padding: 60px 0; 
+  padding: 60px 0;
 }
 
 .about-learn-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
-  max-width: 960px; 
+  max-width: 960px;
   margin: 0 auto;
 }
 
 .about-card {
   display: flex;
   flex-direction: column;
-  background-color: transparent; 
+  background-color: transparent;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  overflow: visible; 
+  overflow: visible;
   cursor: pointer;
-  border-radius: 0; 
+  border-radius: 0;
 }
 
 .about-learn-grid:hover .about-card:not(:hover) {
@@ -3914,7 +3927,7 @@ select {
 .about-card-image {
   display: block;
   width: 100%;
-  aspect-ratio: 240 / 130; 
+  aspect-ratio: 240 / 130;
   overflow: hidden;
   padding: 0;
   border-radius: 26px;
@@ -3934,14 +3947,14 @@ select {
 .about-card-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 
 .card-image-inner-text {
   position: absolute;
   top: 0;
   left: 0;
-  width: 50%; 
+  width: 50%;
   height: 100%;
   padding: 24px;
   display: flex;
@@ -3951,7 +3964,7 @@ select {
 
 .card-image-inner-text p {
   font-family: var(--font-primary);
-  font-size: 14px; 
+  font-size: 14px;
   line-height: 1.2;
   font-weight: 400;
   color: #241c15;
@@ -3959,13 +3972,13 @@ select {
 }
 
 .about-card-content {
-  padding: 16px 0 0 0; 
+  padding: 16px 0 0 0;
 }
 
 .card-label {
   display: block;
   font-family: var(--font-primary);
-  font-size: 11px; 
+  font-size: 11px;
   font-weight: 500;
   letter-spacing: 0.05em;
   color: #241c15;
@@ -3975,7 +3988,7 @@ select {
 
 .about-card-content h3 {
   font-family: var(--font-serif);
-  font-size: 20px; 
+  font-size: 20px;
   line-height: 1.1;
   color: #241c15;
   margin-bottom: 6px;
@@ -3983,7 +3996,7 @@ select {
 
 .about-card-content p {
   font-family: var(--font-primary);
-  font-size: 13px; 
+  font-size: 13px;
   line-height: 1.5;
   color: #241c15;
 }
@@ -4033,8 +4046,6 @@ select {
   }
 }
 
-
-
 .scrutiny-link,
 .link-with-arrow,
 .related-links-list li a,
@@ -4057,9 +4068,8 @@ select {
   opacity: 1 !important;
 }
 
-
 .chat-bubble {
-  border-radius: 20px !important; 
+  border-radius: 20px !important;
   background-color: rgb(36, 28, 21) !important;
 }
 
@@ -4067,11 +4077,12 @@ select {
   background-color: rgb(0, 0, 0) !important;
 }
 
-
 .product-tour-image img.reveal-on-scroll {
   opacity: 0;
   transform: translateY(40px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition:
+    opacity 0.8s ease-out,
+    transform 0.8s ease-out;
 }
 
 .product-tour-image img.reveal-on-scroll.revealed {
@@ -4079,28 +4090,23 @@ select {
   transform: translateY(0);
 }
 
-
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  
   .header-container {
     height: 60px;
     padding: 0 24px;
   }
 
-  
   .main-nav {
     display: none;
   }
 
-  
   .login-link,
   .nav-link.login-link {
     display: flex !important;
   }
 
   .sales-link {
-    display: flex !important; 
+    display: flex !important;
   }
 
   .pricing-link,
@@ -4108,13 +4114,11 @@ select {
     display: flex !important;
   }
 
-  
   .mobile-menu-btn,
   .desktop-menu-btn {
     display: flex !important;
   }
 
-  
   .hero-container {
     grid-template-columns: 1fr;
     gap: 40px;
@@ -4136,14 +4140,12 @@ select {
     width: auto;
   }
 
-  
   .feature-grid-section .feature-grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
   }
 
-  
   .footer-grid {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
@@ -4156,12 +4158,10 @@ select {
     margin-bottom: 0;
   }
 
-  
   section {
     padding: 60px 24px;
   }
 
-  
   .standard-section,
   .pricing-section,
   .plan-section {
@@ -4174,21 +4174,18 @@ select {
     align-items: center;
   }
 
-  
   .standard-feature-list,
   .pricing-features-left,
   .feature-checklist-left {
     display: none !important;
   }
 
-  
   .standard-box,
   .plan-card {
     margin: 0 auto;
     text-align: center;
   }
 
-  
   .see-all-plans,
   .plans-link {
     text-align: center;
@@ -4196,16 +4193,12 @@ select {
   }
 }
 
-
-
 @media screen and (max-width: 768px) {
-  
   .header-container {
     height: 52px;
     padding: 0 16px;
   }
 
-  
   .main-nav {
     display: none;
   }
@@ -4218,20 +4211,17 @@ select {
     display: none;
   }
 
-  
   .pricing-link,
   .nav-link[href*="pricing"],
   a[href*="pricing"].nav-link {
     display: flex !important;
   }
 
-  
   .mobile-menu-btn,
   .desktop-menu-btn {
     display: flex !important;
   }
 
-  
   .hero-content h1 {
     font-size: 48px;
     line-height: 1.1;
@@ -4242,24 +4232,22 @@ select {
     line-height: 1.5;
   }
 
-  
   .hero-cta {
     display: flex;
-    justify-content: flex-start !important; 
+    justify-content: flex-start !important;
     text-align: left !important;
   }
 
   .hero-cta .btn {
-    width: auto !important; 
+    width: auto !important;
     display: inline-flex !important;
     padding: 12px 24px;
     font-size: 13px;
-    border-radius: 26px; 
-    margin-left: 0 !important; 
+    border-radius: 26px;
+    margin-left: 0 !important;
     margin-right: auto !important;
   }
 
-  
   section.hero,
   section#hero,
   .hero {
@@ -4287,27 +4275,23 @@ select {
     text-align: left !important;
   }
 
-  
   .hero-split,
   .hero-content-wrapper {
     flex-direction: column;
   }
 
-  
   .feature-grid,
   .brand-logos {
     flex-direction: column;
     gap: 24px;
   }
 
-  
   .footer-grid {
     display: flex !important;
     flex-direction: column !important;
     gap: 24px;
   }
 
-  
   .footer-col {
     width: 100%;
     margin-bottom: 16px;
@@ -4315,7 +4299,6 @@ select {
     align-items: flex-start !important;
   }
 
-  
   .footer-promo,
   .promo-logo,
   .promo-text,
@@ -4323,7 +4306,6 @@ select {
     text-align: left;
   }
 
-  
   .brand-logos {
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
@@ -4331,14 +4313,12 @@ select {
     justify-items: center;
   }
 
-  
   .footer-legal-bar,
   .footer-copyright-bar,
   .copyright-text {
     text-align: center;
   }
 
-  
   .feature-card,
   .feature-item,
   .integration-item,
@@ -4348,14 +4328,12 @@ select {
     text-align: center;
   }
 
-  
   .section-title,
   .section-heading,
   h2:not(.hero h2):not(.why-hero h2) {
     text-align: left;
   }
 
-  
   .integration-grid,
   .integrations-grid,
   .brand-logos {
@@ -4364,7 +4342,6 @@ select {
     gap: 16px;
   }
 
-  
   .pricing-box,
   .standard-box,
   .plan-card {
@@ -4387,39 +4364,32 @@ select {
     width: max-content;
   }
 
-  
   .feature-checklist,
   .pricing-features {
     display: flex;
     flex-direction: column;
   }
 
-  
   .journey-cta .btn,
   .btn-journey {
     width: auto;
     display: inline-flex;
   }
 
-  
   img {
     max-width: 100%;
     height: auto;
   }
 
-  
   section {
     padding: 40px 16px;
   }
 
-  
   .floating-chat {
     transform: scale(0.85);
     transform-origin: bottom right;
   }
 }
-
-
 
 @media screen and (max-width: 480px) {
   .header-container {
@@ -4427,7 +4397,6 @@ select {
     padding: 0 12px;
   }
 
-  
   .hero-content h1 {
     font-size: 42px;
   }
@@ -4436,19 +4405,15 @@ select {
     font-size: 16px;
   }
 
-  
   .btn {
     padding: 10px 20px;
     font-size: 13px;
   }
 
-  
   section {
     padding: 32px 12px;
   }
 }
-
-
 
 @media screen and (max-width: 360px) {
   .header-container {
@@ -4468,3 +4433,77 @@ select {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .footer-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .footer-grid {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .footer-col {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-align: left !important;
+  }
+
+  .footer-heading {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .footer-links {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .related-links-section {
+    overflow: visible !important;
+    padding: 20px !important;
+  }
+
+  .related-links-container {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+  }
+
+  .related-links-list,
+  .related-links-list--tiered {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 10px !important;
+    width: 100% !important;
+    overflow: visible !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    list-style: none !important;
+  }
+
+  .related-links-list li,
+  .related-links-list--tiered li,
+  .related-links-list--tiered li:nth-child(3) {
+    width: 100% !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    text-indent: 0 !important;
+    display: block !important;
+    justify-content: flex-start !important;
+    text-align: left !important;
+  }
+
+  .related-links-list li a,
+  .related-links-list--tiered li a {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    display: block !important;
+  }
+}

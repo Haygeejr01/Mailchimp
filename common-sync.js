@@ -3,7 +3,7 @@
     return `
       <div class="promo-banner" id="promo-banner">
         <div class="promo-banner-content">
-          <p>Save 50% for 12 monthsâ€”limited time offer. <a href="#">Get started today</a></p>
+          <p>Save 50% for 12 months—limited time offer. <a href="#">Get started today</a></p>
         </div>
         <button class="promo-banner-close" aria-label="Close banner"><i class="fa-solid fa-xmark"></i></button>
       </div>`;
@@ -120,7 +120,7 @@
         <div class="brand-footer">
           <div class="brand-container">
             <div class="footer-copyright-bar">
-              <p class="copyright-text">Â©2001â€“2025 All Rights Reserved. MailchimpÂ® is a registered trademark.</p>
+              <p class="copyright-text">©2001–2025 All Rights Reserved. Mailchimp® is a registered trademark.</p>
               <a href="#" class="chat-btn"><i class="fa-solid fa-message"></i> Chat with Sales</a>
             </div>
           </div>

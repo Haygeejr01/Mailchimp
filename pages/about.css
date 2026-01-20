@@ -1302,15 +1302,6 @@ select {
   margin-bottom: 40px;
 }
 
-.main-header {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  background: var(--mc-white);
-  border-bottom: 1px solid var(--mc-grey-border);
-  transition: box-shadow var(--transition-medium);
-}
-
 .resource-card {
   background: var(--mc-white);
   border: 1px solid var(--mc-grey-border);
@@ -3800,7 +3791,7 @@ select {
   section,
   article,
   main {
-    max-width: 100%; 
+    max-width: 100%;
   }
   html,
   body {
@@ -3921,4 +3912,3 @@ select {
     padding: 0 12px;
   }
 }
-
